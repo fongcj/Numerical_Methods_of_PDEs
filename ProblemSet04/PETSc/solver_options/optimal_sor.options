@@ -1,0 +1,5 @@
+-n 65
+-ksp_type richardson
+-pc_type sor
+-pc_sor_forward
+-pc_sor_omega 1.906454701582762

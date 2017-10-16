@@ -1,0 +1,80 @@
+\documentclass[12pt]{article}
+\usepackage{defs}
+\usepackage{times}
+\title{Rubric for E4301 Projects}
+\date{\today}
+\author{Marc Spiegelman}
+\begin{document}
+\maketitle{}
+
+\subsection*{Project Rationale}
+\label{sec:project-rationale}
+
+The purpose of the 4301 project is to  work through the entire process of
+modeling, computation, verification and evaluation that is required to
+solve quantitative problems in numerical PDE's, by working on a
+problem of \emph{your} choice (with guidance from me).  As a guide, this
+document will lay out a possible template that includes all of the
+components of the project I am looking for and some notion of what I
+am expecting.  A major theme of this course is making intelligent
+choices of problems, formulations, techniques etc.,  so for each part of the
+project I want you to justify your choices (or if they turn out to
+have issues, which they often will, to discuss what went wrong and
+what you would choose next and why).  The project outline is
+essentially this set of choices and their justification.  
+
+\subsection*{Project Outline}
+\label{sec:project-outline}
+
+\begin{enumerate}
+\item Choose your problem and justify its importance/interest etc
+\item Choose a mathematical model (PDE preferably)
+  \begin{enumerate}
+  \item Discuss its formulation
+  \item Justify and explain any approximations made to make it more tractable
+  \end{enumerate}
+\item Choose and justify your Numerical methods including
+  \begin{enumerate}
+  \item Choice of discretization: e.g. Finite Difference, Finite
+    Volume, Finite Element, something fancier?
+  \item Choice of Linear/Non-linear Solver
+  \item Choice of software for modeling/visualization/analysis
+  \end{enumerate}
+\item Present results on your implementation, what worked, what didn't
+  and why. If possible, results should include basic convergence and
+  regression tests as well as any arguments to justify that your
+  numerical model is doing what it's supposed to be doing.
+\item Discuss pros/cons of choices (including whether you think the
+  model is useful);  what you might do differently next
+  time; what the next steps might be if you continued the project.
+\end{enumerate}
+
+
+
+\subsection*{Project Proposal}
+\label{sec:project-proposal}
+
+For your project proposal, what I am looking for (at this point) is one
+to two paragraphs discussing at least Points 1 and 2 above (i.e. what
+problem do you want to solve and how are you going to sort out a PDE
+model of the problem).  If you have a sense of numerical methods you
+would like to try, that would also be very useful.
+
+Overall I am quite flexible in the scope and direction of these
+projects and am happy to work with you to flesh them out.  They can be
+parts of ongoing research,  something you just always wanted to try,
+or a starter problem for new research.  Pitch me an idea and we'll
+take it from there.
+
+To hand in your proposal, just add it to your bitbucket repository
+under a directory called Project.  Ideally I should see a
+\texttt{apma4301proposal\_<userid>.tex} and it's corresponding pdf
+file.  Word docs are acceptible, but now is a good time to start
+learning \LaTeX{} (on top of everything else you need to know).
+\end{document}
+
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 
